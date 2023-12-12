@@ -1,36 +1,28 @@
-var question = document.querySelector("#question-title")
-
-
 var questionArr = [
     {
         questionString: "What is addEventListener()?",
-        choices:{
-            correct: "A method that sets up a function to be called when an event occurs. ",
-            incorrect: ["A method that adds vocal command funcionality. ", "A method to extrapolate dates for events. ", "A method used for logging users key inputs."]
-        }
+        choices:
+            ["A method that adds vocal command funcionality.", "A method to extrapolate dates for events. ", "A method used for logging users key inputs.", "A method that sets up a function to be called when an event occurs."],
+        correct: "A method that sets up a function to be called when an event occurs."
     }, {
         questionString: "What are data attributes used for?",
-        choices:{
-            correct: "To embed custom data on HTML attributes ",
-            incorrect: ["To specify differetn data types from one another. ", "Allow user data inputs from interacting with HTML elements", "To store temporary data to local memory. "]
-        } 
+        choices:
+            ["To specify differetn data types from one another.","To embed custom data on HTML attributes.", "Allow user data inputs from interacting with HTML elements.", "To store temporary data to local memory."],
+        correct: "To embed custom data on HTML attributes",
     }, {
         questionString: "What does the '===' comparision operator do?",
-        choices:{
-            correct: "It tests for equality of value and type. ",
-            incorrect: ["It tests for equality of type only. ", "It tests for equality of value only. ", "It sets variables equal to one another. "]
-        }
+        choices:
+            ["It tests for equality of value and type.","It tests for equality of type only.", "It tests for equality of value only.", "It sets variables equal to one another."],
+        correct: "It tests for equality of value and type.",
     }, {
         questionString: "Which of the below is not a part of css box model?",
-        choices:{
-            correct: "Paragraph",
-            incorrect: ["Margin", "Border", "Padding"]
-        }
+        choices:
+            ["Margin", "Border","Paragraph", "Padding"],
+        correct: "Paragraph",
     }, {
         questionString: "Which of the below is not a data type?",
-        choices:{
-            correct: "Alert ",
-            incorrect: ["String", "Boolean ", "Number"]
-        }
+        choices:
+            ["Alert","String", "Boolean", "Number"],
+        correct: "Alert",
     }
 ]
