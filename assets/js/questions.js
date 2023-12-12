@@ -8,7 +8,7 @@ var questionArr = [
         questionString: "What are data attributes used for?",
         choices:
             ["To specify differetn data types from one another.","To embed custom data on HTML attributes.", "Allow user data inputs from interacting with HTML elements.", "To store temporary data to local memory."],
-        correct: "To embed custom data on HTML attributes",
+        correct: "To embed custom data on HTML attributes.",
     }, {
         questionString: "What does the '===' comparision operator do?",
         choices:
